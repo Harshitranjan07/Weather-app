@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Weather Project</h1>
+    <p class="subtitle">Enter a city name to see live weather.</p>
+
+    <div class="search-row">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="e.g. Delhi, London"
+      />
+      <button id="searchBtn">Get Weather</button>
+    </div>
+
+    <p id="error" class="error"></p>
+
+    <div id="result" class="card">
+      <p class="placeholder">Weather details will appear here.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
